@@ -41,7 +41,7 @@ public class SplitService extends IntegrationService {
          */
         PaymentPerformer paymentPerformerApplicationOrComponent = new PaymentPerformer(
                 //Объект с описанием платёжной системы, которое использует приложение, исполняющее платёж.
-                new PaymentSystem(PaymentType.CASH, "Some description", "Payment system ID"),
+                new PaymentSystem(PaymentType.ELECTRON, "Some description", "Payment system ID"),
                 //Пакет, в котором расположен компонент, исполняющий платёж.
                 "ru.evotor.paymentapp",
                 //Название компонента, исполняющего платёж.
